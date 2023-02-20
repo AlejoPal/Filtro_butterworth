@@ -13,7 +13,7 @@ var imgPasaaltos10= document.createElement('img');
 var Alerta = document.createElement('h1');
 Alerta.innerHTML = 'Grado invalido';
 
-imgPasaaltos2.src = '../Imagenes/PasaAltas2';
+imgPasaaltos2.src = '../Imagenes/PasaAltas2.png';
 imgPasaaltos3.src = '../Imagenes/PasaAltas3.png';
 imgPasaaltos4.src = '../Imagenes/PasaAltas4.png';
 imgPasaaltos5.src = '../Imagenes/PasaAltas5.png';
