@@ -1,32 +1,32 @@
-var imgPasabajos2= document.createElement('img'); 
-var imgPasabajos3= document.createElement('img'); 
-var imgPasabajos4= document.createElement('img'); 
-var imgPasabajos5= document.createElement('img'); 
-var imgPasabajos6= document.createElement('img'); 
-var imgPasabajos7= document.createElement('img'); 
-var imgPasabajos8= document.createElement('img'); 
-var imgPasabajos9= document.createElement('img'); 
-var imgPasabajos10= document.createElement('img'); 
+var imgPasaaltos2= document.createElement('img'); 
+var imgPasaaltos3= document.createElement('img'); 
+var imgPasaaltos4= document.createElement('img'); 
+var imgPasaaltos5= document.createElement('img'); 
+var imgPasaaltos6= document.createElement('img'); 
+var imgPasaaltos7= document.createElement('img'); 
+var imgPasaaltos8= document.createElement('img'); 
+var imgPasaaltos9= document.createElement('img'); 
+var imgPasaaltos10= document.createElement('img'); 
+
 
 
 var Alerta = document.createElement('h1');
 Alerta.innerHTML = 'Grado invalido';
 
-imgPasabajos2.src = '../Imagenes/Pasabajos2.png';
-imgPasabajos3.src = '../Imagenes/Pasabajos3.png';
-imgPasabajos4.src = '../Imagenes/Pasabajos4.png';
-imgPasabajos5.src = '../Imagenes/Pasabajos5.png';
-imgPasabajos6.src = '../Imagenes/Pasabajos6.png';
-imgPasabajos7.src = '../Imagenes/Pasabajos7.png';
-imgPasabajos8.src = '../Imagenes/Pasabajos8.png';
-imgPasabajos9.src = '../Imagenes/Pasabajos9.png';
-imgPasabajos10.src = '../Imagenes/Pasabajos10.png';
+imgPasaaltos2.src = '../Imagenes/Pasabajos2.png';
+imgPasaaltos3.src = '../Imagenes/Pasabajos3.png';
+imgPasaaltos4.src = '../Imagenes/Pasabajos4.png';
+imgPasaaltos5.src = '../Imagenes/Pasabajos5.png';
+imgPasaaltos6.src = '../Imagenes/Pasabajos6.png';
+imgPasaaltos7.src = '../Imagenes/Pasabajos7.png';
+imgPasaaltos8.src = '../Imagenes/Pasabajos8.png';
+imgPasaaltos9.src = '../Imagenes/Pasabajos9.png';
+imgPasaaltos10.src = '../Imagenes/Pasabajos10.png';
 
 
 
 
-
-function MostrarinfoBajos(){
+function MostrarinfoAltos(){
     
     var orden = Math.ceil(calcularOrden());
     console.log(orden);
