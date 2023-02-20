@@ -1,79 +1,79 @@
-var imgPasabajos2= document.createElement('img'); 
-var imgPasabajos3= document.createElement('img'); 
-var imgPasabajos4= document.createElement('img'); 
-var imgPasabajos5= document.createElement('img'); 
-var imgPasabajos6= document.createElement('img'); 
-var imgPasabajos7= document.createElement('img'); 
-var imgPasabajos8= document.createElement('img'); 
-var imgPasabajos9= document.createElement('img'); 
-var imgPasabajos10= document.createElement('img'); 
+var imgPasaaltos2= document.createElement('img'); 
+var imgPasaaltos3= document.createElement('img'); 
+var imgPasaaltos4= document.createElement('img'); 
+var imgPasaaltos5= document.createElement('img'); 
+var imgPasaaltos6= document.createElement('img'); 
+var imgPasaaltos7= document.createElement('img'); 
+var imgPasaaltos8= document.createElement('img'); 
+var imgPasaaltos9= document.createElement('img'); 
+var imgPasaaltos10= document.createElement('img'); 
+
 
 
 var Alerta = document.createElement('h1');
 Alerta.innerHTML = 'Grado invalido';
 
-imgPasabajos2.src = '../Imagenes/Pasabajos2.png';
-imgPasabajos3.src = '../Imagenes/Pasabajos3.png';
-imgPasabajos4.src = '../Imagenes/Pasabajos4.png';
-imgPasabajos5.src = '../Imagenes/Pasabajos5.png';
-imgPasabajos6.src = '../Imagenes/Pasabajos6.png';
-imgPasabajos7.src = '../Imagenes/Pasabajos7.png';
-imgPasabajos8.src = '../Imagenes/Pasabajos8.png';
-imgPasabajos9.src = '../Imagenes/Pasabajos9.png';
-imgPasabajos10.src = '../Imagenes/Pasabajos10.png';
+imgPasaaltos2.src = '../Imagenes/Pasabajos2.png';
+imgPasaaltos3.src = '../Imagenes/Pasabajos3.png';
+imgPasaaltos4.src = '../Imagenes/Pasabajos4.png';
+imgPasaaltos5.src = '../Imagenes/Pasabajos5.png';
+imgPasaaltos6.src = '../Imagenes/Pasabajos6.png';
+imgPasaaltos7.src = '../Imagenes/Pasabajos7.png';
+imgPasaaltos8.src = '../Imagenes/Pasabajos8.png';
+imgPasaaltos9.src = '../Imagenes/Pasabajos9.png';
+imgPasaaltos10.src = '../Imagenes/Pasabajos10.png';
 
 
 
 
-
-function MostrarinfoBajos(){
+function MostrarinfoAltos(){
     
     var orden = Math.ceil(calcularOrden());
     console.log(orden);
     switch(orden){
         case 2: 
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos2);
+            document.getElementById("Imagen").appendChild(imgPasaaltos2);
             genera_tabla(calculo2Orden());
             break;
         case 3:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos3);
+            document.getElementById("Imagen").appendChild(imgPasaaltos3);
             genera_tabla(calculo2Orden());
             break;
         case 4:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos4);
+            document.getElementById("Imagen").appendChild(imgPasaaltos4);
             genera_tabla(calculo4Orden());
             break;
         case 5:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos5);
+            document.getElementById("Imagen").appendChild(imgPasaaltos5);
             genera_tabla(calculo5Orden());
             break;
         case 6:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos6);
+            document.getElementById("Imagen").appendChild(imgPasaaltos6);
             genera_tabla(calculo6Orden());
             break;
         case 7:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos7);
+            document.getElementById("Imagen").appendChild(imgPasaaltos7);
             genera_tabla(calculo7Orden());
             break;
         case 8:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos8);
+            document.getElementById("Imagen").appendChild(imgPasaaltos8);
             genera_tabla(calculo8Orden());
             break;
         case 9:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos9);
+            document.getElementById("Imagen").appendChild(imgPasaaltos9);
             genera_tabla(calculo9Orden());
             break; 
         case 10:
             document.getElementById('Imagen').innerHTML = "";
-            document.getElementById("Imagen").appendChild(imgPasabajos10);
+            document.getElementById("Imagen").appendChild(imgPasaaltos10);
             genera_tabla(calculo10Orden());
             break;   
         default:
