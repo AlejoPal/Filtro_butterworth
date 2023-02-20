@@ -13,15 +13,15 @@ var imgPasaaltos10= document.createElement('img');
 var Alerta = document.createElement('h1');
 Alerta.innerHTML = 'Grado invalido';
 
-imgPasaaltos2.src = '../Imagenes/Pasabajos2.png';
-imgPasaaltos3.src = '../Imagenes/Pasabajos3.png';
-imgPasaaltos4.src = '../Imagenes/Pasabajos4.png';
-imgPasaaltos5.src = '../Imagenes/Pasabajos5.png';
-imgPasaaltos6.src = '../Imagenes/Pasabajos6.png';
-imgPasaaltos7.src = '../Imagenes/Pasabajos7.png';
-imgPasaaltos8.src = '../Imagenes/Pasabajos8.png';
-imgPasaaltos9.src = '../Imagenes/Pasabajos9.png';
-imgPasaaltos10.src = '../Imagenes/Pasabajos10.png';
+imgPasaaltos2.src = '../Imagenes/PasaAltas2';
+imgPasaaltos3.src = '../Imagenes/PasaAltas3.png';
+imgPasaaltos4.src = '../Imagenes/PasaAltas4.png';
+imgPasaaltos5.src = '../Imagenes/PasaAltas5.png';
+imgPasaaltos6.src = '../Imagenes/PasaAltas6.png';
+imgPasaaltos7.src = '../Imagenes/PasaAltas7.png';
+imgPasaaltos8.src = '../Imagenes/PasaAltas8.png';
+imgPasaaltos9.src = '../Imagenes/PasaAltas9.png';
+imgPasaaltos10.src = '../Imagenes/PasaAltas10.png';
 
 
 
