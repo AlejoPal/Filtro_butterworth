@@ -34,47 +34,47 @@ function MostrarinfoAltos(){
         case 2: 
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos2);
-            genera_tabla(calculo2Orden());
+            genera_tabla1(calculo2Orden());
             break;
         case 3:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos3);
-            genera_tabla(calculo2Orden());
+            genera_tabla1(calculo2Orden());
             break;
         case 4:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos4);
-            genera_tabla(calculo4Orden());
+            genera_tabla1(calculo4Orden());
             break;
         case 5:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos5);
-            genera_tabla(calculo5Orden());
+            genera_tabla1(calculo5Orden());
             break;
         case 6:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos6);
-            genera_tabla(calculo6Orden());
+            genera_tabla1(calculo6Orden());
             break;
         case 7:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos7);
-            genera_tabla(calculo7Orden());
+            genera_tabla1(calculo7Orden());
             break;
         case 8:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos8);
-            genera_tabla(calculo8Orden());
+            genera_tabla1(calculo8Orden());
             break;
         case 9:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos9);
-            genera_tabla(calculo9Orden());
+            genera_tabla1(calculo9Orden());
             break; 
         case 10:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos10);
-            genera_tabla(calculo10Orden());
+            genera_tabla1(calculo10Orden());
             break;   
         default:
             document.getElementById("Imagen").appendChild(Alerta);
@@ -83,7 +83,7 @@ function MostrarinfoAltos(){
     }
 }
 
-function genera_tabla(arreglo) {
+function genera_tabla1(arreglo) {
     // Obtener la referencia del elemento body
     var body = document.getElementById("Tabla")
     document.getElementById('Tabla').innerHTML = "";
