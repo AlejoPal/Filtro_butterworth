@@ -102,7 +102,7 @@ function genera_tabla(arreglo) {
         // de la hilera de la tabla
         var celda = document.createElement("td");
         if (j == 0){
-            var textoCelda = document.createTextNode("C"+(i+1));
+            var textoCelda = document.createTextNode("R"+(i+1));
         }
         else{
             var textoCelda = document.createTextNode(arreglo[i]);
