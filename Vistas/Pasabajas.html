@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles.css">
     <script type="text/javascript" src="../Java/Calculos.js"></script>
     <script type="text/javascript" src="../Java/MostrarinfoBajos.js"></script>
-    <link rel="stylesheet" href="../zstyles.css">
+    <link rel="stylesheet" href="../styles.css">
 
     <title>Document</title>
 </head>
@@ -34,7 +34,7 @@
         </div>
         <br>
         <div class="row">
-        <h1 class="Principal text-center" style="color: rgba(8, 52, 91, 0.947);"><b>BUTTERWORTH PASA BAJAS</b></h1>
+            <h1 class="Principal text-center" style="color: rgba(8, 52, 91, 0.947);"><b>BUTTERWORTH PASA BAJAS</b></h1>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
@@ -46,12 +46,19 @@
                 <center><h3 class="Par text-center" style="color: rgba(8, 52, 91, 0.947);">Ingrese Frecuencia de paso</h3><input type="number" id="FP"></center>
                 <center><h3 class="Par text-center" style="color: rgba(8, 52, 91, 0.947);">Ingrese Frecuencia de rechazo</h3><input type="number" id="FS"></center>
                 <center><h3 class="Par text-center" style="color: rgba(8, 52, 91, 0.947);">Ingrese el valor de la resitencia</h3><input type="number" id="RS"></center>
-        <br>
-                <center><button class="btn btn-outline-primary" style="color:darkorange" onclick="Mostrarinfo()"><b>Calcular</b></button></center>
+                <br>
+                <center><button class="btn btn-outline-primary" style="color:darkorange" onclick="MostrarinfoBajos()"><b>Calcular</b></button></center>
             </div>
         </div>
-            <div class="row my-2" style="background-color:darkblue">
-
+        <div class="row my-2">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 my-2">
+                <center>
+                    <div id="Imagen"></div>
+                    <div id="Tabla"></div>
+                </center>
+            </div>
+        </div>
+        <div class="row my-2" style="background-color:darkblue">
             <h3 class="Par text-center" style="color:chocolate;"><b>CONTACTO</b></h3>
             <br>
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
@@ -79,10 +86,7 @@
     </div>
     
 
-    <center>
-        <div id="Imagen"></div>
-        <div id="Tabla"></div>
-    </center>
+    
     
     
 </body>
