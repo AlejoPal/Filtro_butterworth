@@ -5,32 +5,88 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../styles.css">
     <script src="Java/Calculos.js"></script>
+    <script type="text/javascript" src="../Java/MostrarinfoAltos.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
         <br>
+        <div id="fondo">
+            <div class="row">
+                    <img src="../Imagenes/Background.png" class="img-fluid">
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4" >
+                    <img class="al" src="../Imagenes/560216.png" class="img-fluid" width="80px" height="60px">
+                    <img class="al" src="../Imagenes/560278.png" class="img-fluid" width="80px" height="60px">
+                 </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-2">
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 class="tinf" style="color:chocolate;"><b>@ELECTRONIC-DESIGN</b></h2>
+                </div>
+            </div>
+        </div>
+        <br>
         <div class="row">
         <h1 class="Principal text-center" style="color: rgba(8, 52, 91, 0.947);"><b>BUTTERWORTH PASA ALTAS</b></h1>
         </div>
         <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
                 <p>
                     <h3 class="Par" style="color:rgba(8, 52, 91, 0.947);">Un filtro paso alto (HPF) es un tipo de filtro electrónico en cuya respuesta en frecuencia se atenúan los componentes de baja frecuencia pero no los de alta frecuencia, éstas incluso pueden amplificarse en los filtros activos.</h3>
                 </p>
             </div>
-            <div clas="col-sm-12 col-md-4 col-lg-8 col-xl-8">
-        <h3>Ingrese Frecuencia de paso</h3><input type="number" id="FP">
-        <h3>Ingrese Frecuencia de rechazo</h3><input type="number" id="FS">
-        <h3>Ingrese el valor de la resitencia</h3><input type="number" id="RS">
-        <br>
-        <div class="row">
-        <button class="btn btn-outline-primary" style="color:darkorange" onclick="Mostrarinfo()"><b>Calcular</b></button>
+            <br>
+            <br>
+            <center>
+                <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 ml-4">
+                <h3 class="Par" style="color: rgba(8, 52, 91, 0.947);">Ingrese Frecuencia de paso</h3><input type="number" id="FP">
+                <h3 class="Par" style="color: rgba(8, 52, 91, 0.947);">Ingrese Frecuencia de rechazo</h3><input type="number" id="FS">
+                <h3 class="Par" style="color: rgba(8, 52, 91, 0.947);">Ingrese el valor de la resitencia</h3><input type="number" id="RS">
+            <br>
+            <br>
+            <button class="btn btn-outline-primary" style="color:darkorange" onclick="Mostrarinfo()"><b>Calcular</b></button>
+                </div>
+            </div>
+        </center>
+        <center>
+            <div id="Imagen"></div>
+            <div id="Tabla"></div>
+        </center>    
         </div>
+
+        <div class="row my-2" style="background-color:darkblue">
+
+            <h3 class="Par text-center" style="color:chocolate;"><b>CONTACTO</b></h3>
+            <br>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+                <center><img  src="../Imagenes/560216.png" class="img-fluid" width="70px" height="50px"></center>
+                <p>
+                <center><a class="Par"  style="color: darkorange;"><b>Alejandro Palacios</b></a></center>
+                </p>
+                <p>
+                <center><a class="Par" href="https://wa.me/573165337263" style="color: darkorange;"><b>3012738506</b></a></center>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+
+                <center><img  src="../Imagenes/560278.png" class="img-fluid" width="70px" height="50px"></center>
+                <p>
+                <center><a class="Par"  style="color: darkorange;"><b>Emilia Meneses</b></a></center>
+                </p>
+                <p>
+                <center><a class="Par" href="https://wa.me/573165337263" style="color: darkorange;"><b>3165337263</b></a></center>
+                </p>
+            </div>
+        
+
         </div>
-     </div>
+
+    </div>
    
 </body>
 </html>
