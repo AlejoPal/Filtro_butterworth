@@ -26,6 +26,7 @@ imgPasaaltos10.src = '../Imagenes/PasaAltas10.png';
 
 
 
+
 function MostrarinfoAltos(){
     
     var orden = Math.ceil(calcularOrden());
