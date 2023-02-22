@@ -1,0 +1,30 @@
+body{
+    background-color:blanchedalmond; 
+}
+.principal{
+    text-align: center;
+    font-family:"fairwater Script";
+
+}
+.Par{
+    text-align: justify;
+    font-family:"fairwater Script";
+}
+.Centrar{
+    text-align: center; 
+}
+
+.tinf{
+    vertical-align: text-bottom;
+}
+.al{
+    vertical-align: text-bottom;
+}
+
+#fondo{
+    background-image: url("Imagenes/Background.png");
+}
+#fondos{
+    margin-top: 0%;
+    margin-bottom: 0%;
+}

@@ -5,16 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css">
     <script type="text/javascript" src="../Java/Calculos.js"></script>
     <script type="text/javascript" src="../Java/MostrarinfoBajos.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>PASA BAJAS</h1>
-    <h2>Ingrese Frecuencia de paso</h2><input type="number" id="FP">
-    <h2>Ingrese Frecuencia de rechazo</h2><input type="number" id="FS">
-    <h2>Ingrese el valor de la resitencia</h2><input type="number" id="RS">
-    <button onclick="MostrarinfoBajos()">Calcular</button>
+    <div class="container">
+        <br>
+        <div id="fondo">
+            <div class="row">
+                    <img src="../Imagenes/Background.png" class="img-fluid">
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4" >
+                    <img class="al" src="../Imagenes/560216.png" class="img-fluid" width="80px" height="60px">
+                    <img class="al" src="../Imagenes/560278.png" class="img-fluid" width="80px" height="60px">
+                 </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 my-2">
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <h2 class="tinf" style="color:chocolate;"><b>@ELECTRONIC-DESIGN</b></h2>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+        <h1 class="Principal text-center" style="color: rgba(8, 52, 91, 0.947);"><b>BUTTERWORTH PASA BAJAS</b></h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <p>
+                    <h3 class="Par" style="color:rgba(8, 52, 91, 0.947);">Un filtro paso bajo corresponde a un filtro electrónico caracterizado por permitir el paso de las frecuencias más bajas y atenuar las frecuencias más altas.1​ El filtro requiere de dos terminales de entrada y dos de salida, de una caja negra, también denominada cuadripolo o bipuerto, así todas las frecuencias se pueden presentar a la entrada, pero a la salida solo estarán presentes las que permita pasar el filtro.</h3>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <center><h3 class="Par text-center" style="color: rgba(8, 52, 91, 0.947);">Ingrese Frecuencia de paso</h3><input type="number" id="FP"></center>
+                <center><h3 class="Par text-center" style="color: rgba(8, 52, 91, 0.947);">Ingrese Frecuencia de rechazo</h3><input type="number" id="FS"></center>
+                <center><h3 class="Par text-center" style="color: rgba(8, 52, 91, 0.947);">Ingrese el valor de la resitencia</h3><input type="number" id="RS"></center>
+        <br>
+                <center><button class="btn btn-outline-primary" style="color:darkorange" onclick="Mostrarinfo()"><b>Calcular</b></button></center>
+            </div>
+        </div>
+            <div class="row my-2" style="background-color:darkblue">
+
+            <h3 class="Par text-center" style="color:chocolate;"><b>CONTACTO</b></h3>
+            <br>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+                <center><img  src="../Imagenes/560216.png" class="img-fluid" width="70px" height="50px"></center>
+                <p>
+                <center><a class="Par"  style="color: darkorange;"><b>Alejandro Palacios</b></a></center>
+                </p>
+                <p>
+                <center><a class="Par" href="https://wa.me/573165337263" style="color: darkorange;"><b>3012738506</b></a></center>
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2">
+
+                <center><img  src="../Imagenes/560278.png" class="img-fluid" width="70px" height="50px"></center>
+                <p>
+                <center><a class="Par"  style="color: darkorange;"><b>Emilia Meneses</b></a></center>
+                </p>
+                <p>
+                <center><a class="Par" href="https://wa.me/573165337263" style="color: darkorange;"><b>3165337263</b></a></center>
+                </p>
+            </div>
+        
+
+        </div>
+    </div>
+    
+
     <center>
         <div id="Imagen"></div>
         <div id="Tabla"></div>
