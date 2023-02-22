@@ -12,6 +12,7 @@ var imgPasaaltos10= document.createElement('img');
 
 var Alerta = document.createElement('h1');
 Alerta.innerHTML = 'Grado invalido';
+Alerta.className = "Peligro";
 
 imgPasaaltos2.src = '../Imagenes/PasaAltas2.png';
 imgPasaaltos3.src = '../Imagenes/PasaAltas3.png';

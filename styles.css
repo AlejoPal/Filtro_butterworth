@@ -20,7 +20,10 @@ body{
 .al{
     vertical-align: text-bottom;
 }
-
+.Peligro{
+    font-family:"fairwater Script";
+    color: red;
+}
 #fondo{
     background-image: url("Imagenes/Background.png");
 }
