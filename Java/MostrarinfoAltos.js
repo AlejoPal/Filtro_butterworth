@@ -23,6 +23,16 @@ imgPasaaltos8.src = '../Imagenes/PasaAltas8.png';
 imgPasaaltos9.src = '../Imagenes/PasaAltas9.png';
 imgPasaaltos10.src = '../Imagenes/PasaAltas10.png';
 
+imgPasaaltos1.className = "img-fluid";
+imgPasaaltos2.className = "img-fluid";
+imgPasaaltos3.className = "img-fluid";
+imgPasaaltos4.className = "img-fluid";
+imgPasaaltos5.className = "img-fluid";
+imgPasaaltos6.className = "img-fluid";
+imgPasaaltos7.className = "img-fluid";
+imgPasaaltos8.className = "img-fluid";
+imgPasaaltos9.className = "img-fluid";
+imgPasaaltos10.className = "img-fluid";
 
 
 

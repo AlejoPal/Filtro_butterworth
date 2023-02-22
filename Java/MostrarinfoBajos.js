@@ -22,7 +22,16 @@ imgPasabajos8.src = '../Imagenes/Pasabajos8.png';
 imgPasabajos9.src = '../Imagenes/Pasabajos9.png';
 imgPasabajos10.src = '../Imagenes/Pasabajos10.png';
 
-
+imgPasabajos1.className = "img-fluid";
+imgPasabajos2.className = "img-fluid";
+imgPasabajos3.className = "img-fluid";
+imgPasabajos4.className = "img-fluid";
+imgPasabajos5.className = "img-fluid";
+imgPasabajos6.className = "img-fluid";
+imgPasabajos7.className = "img-fluid";
+imgPasabajos8.className = "img-fluid";
+imgPasabajos9.className = "img-fluid";
+imgPasabajos10.className = "img-fluid";
 
 
 
