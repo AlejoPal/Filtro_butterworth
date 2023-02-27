@@ -51,7 +51,7 @@ function MostrarinfoAltos(){
         case 3:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasaaltos3);
-            genera_tabla1(calculo2Orden());
+            genera_tabla1(calculo3Orden());
             break;
         case 4:
             document.getElementById('Imagen').innerHTML = "";

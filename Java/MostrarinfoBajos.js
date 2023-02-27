@@ -50,7 +50,7 @@ function MostrarinfoBajos(){
         case 3:
             document.getElementById('Imagen').innerHTML = "";
             document.getElementById("Imagen").appendChild(imgPasabajos3);
-            genera_tabla(calculo2Orden());
+            genera_tabla(calculo3Orden());
             break;
         case 4:
             document.getElementById('Imagen').innerHTML = "";
