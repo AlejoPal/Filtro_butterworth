@@ -1,5 +1,9 @@
 body{
+<<<<<<< HEAD
     background-color: rgb(234, 242, 248); 
+=======
+    background-color:rgb(234, 242, 248); 
+>>>>>>> 4cfdfcc678aac0328f956ea9952940d43bdcc603
 }
 .principal{
     text-align: center;
